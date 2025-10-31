@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Experiment 4</title>
+</head>
+<body> 
+    <center>
+        <caption><strong>Hotel Booking Form</strong></caption>
+    <form>
+        Name:<input type="text" name="Username" placeholder="Enter your name"><br><br>
+        Email ID:<input type="email" name="Email" placeholder="Enter your email"><br><br>
+        Contact no:<input type="tel" name="Phone" placeholder="Enter your phone number"><br><br>
+        Check-in Date:<input type="date" name="Checkin" placeholder="Select check-in date"><br><br>
+        Check-out Date:<input type="date" name="Checkout" placeholder="Select check-out date"><br><br>
+        Room Type:<select name="Roomtype">
+            <option value="Single">Single Room</option>
+            <option value="Double">Double Room</option>
+            <option value="Suite">Suite</option>
+        </select><br><br>
+        No. of Guests:<input type="number" name="Guests" min="1" max="10" value="1"><br><br>
+        Special Requests:<br>
+        <textarea name="Requests" rows="4" cols="30" placeholder="Enter any special requests here"></textarea><br><br>
+        <input type="submit" value="Book Now">
+        <input type="reset" value="Reset">
+    </form>
+    </center>
+</body>
+</html>
